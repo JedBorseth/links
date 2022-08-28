@@ -110,10 +110,11 @@ ul li {
   background: none;
   cursor: pointer;
   display: grid;
-  place-items: center;
+  color: #333;
 }
 .info button svg {
   scale: 2;
+  color: #333;
 }
 .info h3 {
   width: 100%;
@@ -127,7 +128,7 @@ ul li {
 }
 .info img {
   width: 10rem;
-  height: fit-content;
+  height: auto;
   border: 1px solid black;
 }
 .info a {
@@ -144,6 +145,8 @@ ul li {
 @media (min-width: 37.5em) {
   .info img {
     width: 20rem;
+    height: auto;
+    max-height: 30rem;
   }
   .info a {
     padding: 2rem;
